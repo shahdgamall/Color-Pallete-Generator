@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Palette Generator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Color Palette Generator</h1>
+        <div class="border"></div>
+      </div>
+
+      <button id="generate-btn">
+        <i class="fas fa-sync-alt"></i>
+        Generate Palette
+      </button>
+      <div class="palette-container">
+        <!-- box 1  -->
+        <div class="color-box">
+          <div class="color" style="background-color: #502419"></div>
+          <div class="color-info">
+            <span class="hex-value">#502419</span>
+            <i class="far fa-copy copy-btn" title="copy to clipboard"></i>
+            <!-- <button class="lock-btn"><i class="fa-solid fa-lock-open"></i></button> -->
+          </div>
+        </div>
+
+        <!-- box 2 -->
+        <div class="color-box">
+          <div class="color" style="background-color: #7ea172"></div>
+          <div class="color-info">
+            <span class="hex-value">#7EA172</span>
+            <i class="far fa-copy copy-btn" title="copy to clipboard"></i>
+            <!-- <button class="lock-btn">
+              <i class="fa-solid fa-lock-open"></i>
+            </button> -->
+          </div>
+        </div>
+
+        <!-- box 3 -->
+        <div class="color-box">
+          <div class="color" style="background-color: #c7cb85"></div>
+          <div class="color-info">
+            <span class="hex-value">#C7CB85</span>
+            <i class="far fa-copy copy-btn" title="copy to clipboard"></i>
+            <!-- <button class="lock-btn">
+              <i class="fa-solid fa-lock-open"></i>
+            </button> -->
+          </div>
+        </div>
+
+        <!-- box 4 -->
+        <div class="color-box">
+          <div class="color" style="background-color: #e7a977"></div>
+          <div class="color-info">
+            <span class="hex-value">#E7A977</span>
+            <i class="far fa-copy copy-btn" title="copy to clipboard"></i>
+            <!-- <button class="lock-btn">
+              <i class="fa-solid fa-lock-open"></i>
+            </button> -->
+          </div>
+        </div>
+
+        <!-- box 5 -->
+        <div class="color-box">
+          <div class="color" style="background-color: #ebbe9b"></div>
+          <div class="color-info">
+            <span class="hex-value">#EBBE9B</span>
+            <i class="far fa-copy copy-btn" title="copy to clipboard"></i>
+            <!-- <button class="lock-btn">
+              <i class="fa-solid fa-lock-open"></i>
+            </button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
